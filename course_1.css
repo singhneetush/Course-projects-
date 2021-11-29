@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,900&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /*
+font-family: 'Poppins', sans-serif; */
+}
+
+/* HEADER STYLING */
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+#navbar {
+  background-color: black;
+}
+
+.nav {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+a.link {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 100;
+  margin: 5px;
+  padding: 50px;
+  font-family: "Merriweather", serif;
+  text-align: center;
+}
+
+/* MAIN STYLING */
+
+main {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+#main {
+  background-color: rgba(160, 160, 160, 0.425);
+}
+
+.call {
+  margin: 90px;
+  padding: 10px;
+}
+
+img {
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.centre {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+}
+
+#bold {
+  font-family: "Merriweather", serif;
+  font-size: 35px;
+  font-weight: 200;
+  letter-spacing: 4px;
+  margin-top: 10px;
+}
+#contact1 {
+  margin-top: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#contact {
+  font-size: 20px;
+  background-color: rgb(255, 255, 0);
+  padding: 10px;
+  color: darkblue;
+}
+
+label {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+}
+
+#tab {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 70px;
+}
+
+th {
+  padding: 20px;
+}
+
+
+
+/* FOOTER STYLING */
+
+footer {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#foot {
+  color: white;
+  text-align: center;
+}
+
+.feet {
+  font-size: 24px;
+  padding: 2px;
+  margin-top: 10px;
+}
+
+a.feet {
+  color: white;
+  text-decoration: none;
+}
